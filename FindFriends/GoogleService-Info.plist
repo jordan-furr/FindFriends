@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>529959419162-cdrtcka2dkhb5i5lnnovvfihe8alaodg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.529959419162-cdrtcka2dkhb5i5lnnovvfihe8alaodg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArllbU2faS9roRoC2FYeI5-CEtqvIIi0U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>529959419162</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jordanfurr.FindFriends</string>
+	<key>PROJECT_ID</key>
+	<string>findfriends-d940f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>findfriends-d940f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:529959419162:ios:7a8a0bf3a6a3dee14000a3</string>
+	<key>DATABASE_URL</key>
+	<string>https://findfriends-d940f.firebaseio.com</string>
+</dict>
+</plist>
