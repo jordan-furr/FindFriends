@@ -19,6 +19,12 @@
 		C5750DF4244F5EC900598112 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750DF3244F5EC900598112 /* StartViewController.swift */; };
 		C5750DF6244F5F3600598112 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750DF5244F5F3600598112 /* HomeViewController.swift */; };
 		C5750DF8244F963000598112 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750DF7244F962F00598112 /* TabBarController.swift */; };
+		C5750DFA244FDE4100598112 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750DF9244FDE4000598112 /* FriendsTableViewController.swift */; };
+		C5750DFD2450882D00598112 /* FriendSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750DFC2450882D00598112 /* FriendSystem.swift */; };
+		C5750DFF2450966700598112 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750DFE2450966700598112 /* User.swift */; };
+		C5750E0124509C9700598112 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750E0024509C9700598112 /* Error.swift */; };
+		C5750E052450A19800598112 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750E042450A19800598112 /* UsersTableViewController.swift */; };
+		C5750E072450A1A400598112 /* RequestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5750E062450A1A400598112 /* RequestsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,12 @@
 		C5750DF3244F5EC900598112 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		C5750DF5244F5F3600598112 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C5750DF7244F962F00598112 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C5750DF9244FDE4000598112 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		C5750DFC2450882D00598112 /* FriendSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSystem.swift; sourceTree = "<group>"; };
+		C5750DFE2450966700598112 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5750E0024509C9700598112 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		C5750E042450A19800598112 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		C5750E062450A1A400598112 /* RequestsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewController.swift; sourceTree = "<group>"; };
 		D8761ADD2BBFB328C96907AB /* Pods_FindFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,10 +97,14 @@
 				C5750DD9244F35EC00598112 /* AppDelegate.swift */,
 				C5750DED244F390400598112 /* GoogleService-Info.plist */,
 				C5750DDB244F35EC00598112 /* SceneDelegate.swift */,
-				C5750DEF244F402400598112 /* SignUpViewController.swift */,
-				C5750DF1244F5E8000598112 /* LogInViewController.swift */,
-				C5750DF3244F5EC900598112 /* StartViewController.swift */,
+				C5750DFC2450882D00598112 /* FriendSystem.swift */,
+				C5750DFE2450966700598112 /* User.swift */,
+				C5750E0024509C9700598112 /* Error.swift */,
+				C5750DFB244FDECB00598112 /* New Group */,
 				C5750DF5244F5F3600598112 /* HomeViewController.swift */,
+				C5750DF9244FDE4000598112 /* FriendsTableViewController.swift */,
+				C5750E042450A19800598112 /* UsersTableViewController.swift */,
+				C5750E062450A1A400598112 /* RequestsTableViewController.swift */,
 				C5750DDF244F35EC00598112 /* Main.storyboard */,
 				C5750DF7244F962F00598112 /* TabBarController.swift */,
 				C5750DE2244F35F300598112 /* Assets.xcassets */,
@@ -96,6 +112,16 @@
 				C5750DE7244F35F300598112 /* Info.plist */,
 			);
 			path = FindFriends;
+			sourceTree = "<group>";
+		};
+		C5750DFB244FDECB00598112 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C5750DEF244F402400598112 /* SignUpViewController.swift */,
+				C5750DF1244F5E8000598112 /* LogInViewController.swift */,
+				C5750DF3244F5EC900598112 /* StartViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		CCD06C57F7FACA76B37AEEB3 /* Frameworks */ = {
@@ -224,10 +250,16 @@
 			files = (
 				C5750DF4244F5EC900598112 /* StartViewController.swift in Sources */,
 				C5750DF2244F5E8000598112 /* LogInViewController.swift in Sources */,
+				C5750E052450A19800598112 /* UsersTableViewController.swift in Sources */,
+				C5750DFA244FDE4100598112 /* FriendsTableViewController.swift in Sources */,
+				C5750E0124509C9700598112 /* Error.swift in Sources */,
 				C5750DDA244F35EC00598112 /* AppDelegate.swift in Sources */,
 				C5750DF0244F402400598112 /* SignUpViewController.swift in Sources */,
 				C5750DF8244F963000598112 /* TabBarController.swift in Sources */,
 				C5750DDC244F35EC00598112 /* SceneDelegate.swift in Sources */,
+				C5750DFD2450882D00598112 /* FriendSystem.swift in Sources */,
+				C5750E072450A1A400598112 /* RequestsTableViewController.swift in Sources */,
+				C5750DFF2450966700598112 /* User.swift in Sources */,
 				C5750DF6244F5F3600598112 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

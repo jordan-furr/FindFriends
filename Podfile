@@ -9,6 +9,8 @@ target 'FindFriends' do
     
 pod 'Firebase/Analytics'
 pod ‘Firebase/Auth’
+pod 'Firebase/Database'
 pod 'Firebase/Core'
+pod 'Firebase'
 
 end
