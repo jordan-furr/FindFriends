@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ff3-O0-kcE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -65,11 +65,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginAction:" destination="niS-WQ-EpJ" eventType="touchUpInside" id="Aqg-M8-GLZ"/>
+                                    <action selector="loginAction:" destination="niS-WQ-EpJ" eventType="touchUpInside" id="qZ1-fp-FIh"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.89014369250000003" green="0.60301584009999998" blue="0.21863043309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rrQ-zT-2yP" firstAttribute="centerX" secondItem="TRZ-nG-PPt" secondAttribute="centerX" id="BEJ-Ee-EL4"/>
                             <constraint firstItem="TRZ-nG-PPt" firstAttribute="bottom" secondItem="rrQ-zT-2yP" secondAttribute="bottom" constant="120" id="CtM-AX-SJc"/>
@@ -83,8 +83,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="uuQ-Fg-IGb"/>
                     <connections>
-                        <outlet property="email" destination="PVK-Z6-HAI" id="MQR-th-s5A"/>
-                        <outlet property="password" destination="Ppj-1h-qGq" id="u37-n1-ceP"/>
+                        <outlet property="email" destination="PVK-Z6-HAI" id="Iti-O7-jUM"/>
+                        <outlet property="password" destination="Ppj-1h-qGq" id="Bke-25-541"/>
                         <segue destination="gNj-a8-5WP" kind="show" identifier="loginToHome" id="y8w-zN-9ut"/>
                     </connections>
                 </viewController>
@@ -117,7 +117,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.89014369250000003" green="0.60301584009999998" blue="0.21863043309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QkB-qo-xqL" firstAttribute="trailing" secondItem="Y6k-hk-GgD" secondAttribute="trailing" constant="20" id="6cQ-eE-Q3y"/>
                             <constraint firstItem="Y6k-hk-GgD" firstAttribute="top" secondItem="QkB-qo-xqL" secondAttribute="top" constant="20" id="IrY-A9-WsU"/>
@@ -148,7 +148,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.89014369250000003" green="0.60301584009999998" blue="0.21863043309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
@@ -269,7 +269,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="signUpAction:" destination="cOu-ME-W5P" eventType="touchUpInside" id="A4Q-w2-2qV"/>
+                                    <action selector="signUpAction:" destination="cOu-ME-W5P" eventType="touchUpInside" id="i50-RU-5Km"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIND FRIENDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Srs-lK-Mjf">
@@ -331,7 +331,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.89014369250000003" green="0.60301584009999998" blue="0.21863043309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Srs-lK-Mjf" firstAttribute="centerY" secondItem="vES-3z-Yb1" secondAttribute="centerY" multiplier="0.3" constant="1" id="3Bs-vt-hAx"/>
                             <constraint firstItem="3yh-73-Ln1" firstAttribute="centerX" secondItem="vES-3z-Yb1" secondAttribute="centerX" id="BQb-nT-owN"/>
@@ -345,9 +345,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="U3a-FS-XoY"/>
                     <connections>
-                        <outlet property="email" destination="FMX-Dd-eco" id="74M-aF-Bft"/>
-                        <outlet property="password" destination="KXG-Ny-W3e" id="UXD-bn-wqZ"/>
-                        <outlet property="passwordConfirm" destination="RiA-uB-tG1" id="pkW-OA-c6n"/>
+                        <outlet property="email" destination="FMX-Dd-eco" id="FcZ-DV-ErJ"/>
+                        <outlet property="password" destination="KXG-Ny-W3e" id="h9U-Cq-r9k"/>
+                        <outlet property="passwordConfirm" destination="RiA-uB-tG1" id="lTz-gg-UAE"/>
                         <segue destination="gNj-a8-5WP" kind="show" identifier="signupToHome" id="XEE-Kd-BHg"/>
                     </connections>
                 </viewController>
@@ -372,6 +372,17 @@
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="niS-WQ-EpJ" kind="show" id="ePi-CU-wHg"/>
                                 </connections>
@@ -385,6 +396,17 @@
                                 <state key="normal" title="SIGNUP">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="cOu-ME-W5P" kind="show" id="wNd-LW-940"/>
                                 </connections>
@@ -402,7 +424,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.89014369250000003" green="0.60301584009999998" blue="0.21863043309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DfY-NR-m0O" firstAttribute="trailing" secondItem="qRF-4n-iqb" secondAttribute="trailing" constant="100" id="6J7-PT-12i"/>
                             <constraint firstItem="pLt-XU-odz" firstAttribute="centerY" secondItem="DfY-NR-m0O" secondAttribute="centerY" multiplier="1.5" id="8BT-PM-Z9g"/>
@@ -436,7 +458,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Egc-Oc-ePu">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.38881652760000002" blue="0.1681751702" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -455,6 +477,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="sectionIndexBackgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="friendCell" textLabel="Okq-99-28v" detailTextLabel="zTw-Pk-YYX" style="IBUITableViewCellStyleValue1" id="L4R-VU-bbv">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>

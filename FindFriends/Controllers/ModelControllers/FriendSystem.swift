@@ -20,7 +20,7 @@ class FriendSystem {
     
     //user firebase reference
     let userreference = Database.database().reference().child("users")
-
+    
     //firebase reference to current user
     var currentUserRef: DatabaseReference {
         let id = Auth.auth().currentUser!.uid
@@ -46,7 +46,7 @@ class FriendSystem {
     //gets current users object
     func getCurrentUserID(_ completion: @escaping (User) -> Void) {
         currentUserRef.observeSingleEvent(of: DataEventType.value, with: {(snapshot) in
-            let email = snapshot.childSnapshot(forPath: "email").value as! String
+            guard let email = snapshot.childSnapshot(forPath: "email").value as? String else {return}
             let id = snapshot.key
             completion(User(userEmail: email, userID: id))
         })
@@ -160,7 +160,7 @@ class FriendSystem {
             }
         })
     }
-
+    
     
     //removes friend request observer. this should be done when leaving the view that uses the observer
     func removeRequestObserver() {
